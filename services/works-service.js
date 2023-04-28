@@ -1,6 +1,6 @@
 
-export function deleteProject(idProject, listProjects, modalBody, modalForm) {
-    return fetch(`http://localhost:5678/api/works/${idProject}`, {
+export async function deleteProject(idProject, listProjects, modalBody, modalForm) {
+    return await fetch(`http://localhost:5678/api/works/${idProject}`, {
         method: "DELETE",
         headers: {
             Authorization: `Bearer ${sessionStorage.getItem("token")}`

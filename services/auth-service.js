@@ -30,5 +30,4 @@ export async function authentification(email, password) {
     }catch (e) {
         console.error('Error authentification : ', e);
     }
-
 }

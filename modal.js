@@ -72,7 +72,7 @@ function refreshModalButtons() {
     console.log("Refreshed Buttons")
 }
 
-// Création de la modale Gallerie
+// Création de la modale Galerie
 function createModal() {
     modalGallery.style.display = "block";
     resetModal();
@@ -120,7 +120,7 @@ function createModal() {
             });
 
 
-            modalBody.appendChild(modalForm); // <post> et son contenu assigné au body de la modale
+            modalBody.appendChild(modalForm);
             modalForm.appendChild(imgModal);
             modalForm.appendChild(editModal);
             modalForm.appendChild(moveModal);
