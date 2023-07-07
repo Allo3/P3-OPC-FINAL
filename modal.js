@@ -87,8 +87,6 @@ function createModal() {
     console.log('projects', projects)
     // Création de la galerie modale
     projects.forEach((projet) => {
-            // Affiche uniquement les projets non deleted
-
             // Création d'un <post> pour la modale
             let modalForm = document.createElement("post");
             modalForm.setAttribute("data-id", projet.id);
